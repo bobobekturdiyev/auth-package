@@ -1,0 +1,20 @@
+{
+    "name": "programmeruz/auth-package",
+    "description": "Authentication API package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Programmeruz\\AuthPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bobobek Turdiyev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "tymon/jwt-auth": "2.x-dev"
+    }
+}
